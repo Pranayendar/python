@@ -1,0 +1,47 @@
+#organised
+x= 10 #numbers
+y= "hello world" #string
+print(x)
+print(y)
+
+
+#python case sensitive language
+a="vamshi"
+A="pranay"
+print(a)
+print(A)
+
+
+#Get the type of a variable type()
+x= 20
+y= 50
+z= 90.768
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+#acceptable variable names
+myname="pranay"
+my_name="pranay"
+_my_name="pranay"
+myName="pranay"
+MYNAME="pranay"
+myname3="pranay"
+
+print(myname)
+print(my_name)
+print(_my_name)
+print(myName)
+print(MYNAME)
+print(myname3)
+
+#Not acceptable variable names
+#2myname="pranay"
+#my-name="pranay"
+#my name="pranay"
+
+#my first name ="chintu"
+ #camel case
+#my first name
