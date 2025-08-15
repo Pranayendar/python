@@ -1,0 +1,76 @@
+#LIST
+
+#lists are declared using square breackets[]
+nums=[11,22,33,44,55,66]
+nums
+[11, 22, 33, 44, 55, 66]
+nums[2]
+33
+nums[2:4]
+[33, 44]
+nums[-2]
+55
+diff = [11,'pranay',10.2]
+diff
+[11, 'pranay', 10.2]
+diff.append(22)
+diff
+[11, 'pranay', 10.2, 22]
+#insert used to add value using index value
+diff.insert(2,33)
+diff
+[11, 'pranay', 33, 10.2, 22]
+
+#remove used to delete a value from the list
+diff.remove(33)
+diff
+[11, 'pranay', 10.2, 22]
+
+#pop  used to pop out the value from list
+#if you have not passed the  index value into pop then it pops out the last value
+ diff.pop(2)
+10.2
+diff
+[11, 'pranay', 22]
+diff.pop()
+22
+diff
+[11, 'pranay']
+#del used to delete the mutliple values in the list
+delete = [11,'pranay',11.0,112]
+delete
+[11, 'pranay', 11.0, 112]
+del delete[3:]
+delete
+[11, 'pranay', 11.0]
+#add multiple values to a list
+delete.extend([22,33,44,55])
+delete
+[11, 'pranay', 11.0, 22, 33, 44, 55]
+delete.pop(1)
+'pranay'
+delete
+[11, 11.0, 22, 33, 44, 55]
+sum(delete)
+176.0
+min(delete)
+11
+max(delete)
+55
+sort(delete)
+delete.sort()
+delete
+[11, 11.0, 22, 33, 44, 55]
+delete.count(11)
+2
+delete.clear()
+delete
+[]
+diff.copy()
+[11, 'pranay']
+diff.reverse()
+diff
+['pranay', 11]
+delete.reverse()
+delete
+[]
