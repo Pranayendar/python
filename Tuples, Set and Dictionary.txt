@@ -1,0 +1,89 @@
+#TUPLE
+
+#tuple is immutable(unchangable)
+#tuple is used to discride in ()curve brackets
+tup=(20,25,2,24,27)
+tup
+(20, 25, 2, 24, 27)
+min(tup)
+2
+max(tup)
+27
+tup.count(20)
+1
+tup.index(2)
+2
+
+
+#SET
+
+#set is a container declared using { } curly bracket
+#set never follows the order you have inserted
+set1 = {11,22,33,44,55,44,33,44}
+set1
+{33, 22, 55, 11, 44}
+set1
+{33, 22, 55, 11, 44}
+set1= {11,22,33,44,66,77,66,77}
+set1
+{33, 66, 22, 11, 44, 77}
+#cannot access using index value because sorting is not in order
+#it does not allow duplicate values
+
+
+#Dictionary
+
+#helps to assign the unique key values to all elements
+data={1:"pranay",2:"endar",5:"reddy"}
+data
+{1: 'pranay', 2: 'endar', 5: 'reddy'}
+data[2]
+'endar'
+data.get(1)
+'pranay'
+data.get(3,'Not Found')
+'Not Found'
+
+keys = ['pranay', 'endar', 'reddy']
+values = ['hello','hi', 'hey']
+data = dict(zip(keys,values))
+      
+data
+      
+{'pranay': 'hello', 'endar': 'hi', 'reddy': 'hey'}
+data['pranay']
+      
+'hello'
+#add values to diictionary
+      
+data['prince'] = 'how'  
+data     
+{'pranay': 'hello', 'endar': 'hi', 'reddy': 'hey', 'prince': 'how'}
+del data['pranay']
+      
+data    
+{'endar': 'hi', 'reddy': 'hey', 'prince': 'how'}
+
+
+#NESTED dictionary/list
+      
+prog = {'js':'atom','cs':'vs','python':['pycharm','sublime']}
+prog
+{'js': 'atom', 'cs': 'vs', 'python': ['pycharm', 'sublime']}
+prog['js']
+      
+'atom'
+prog['python']
+      
+['pycharm', 'sublime']
+prog['python'][1]
+      
+'sublime'
+progg = {'js':'atom','cs':'vs','python':['pycharm','sublime'],'java':{'jse':'netbeans','jee':'eclipse'}}
+      
+progg
+      
+{'js': 'atom', 'cs': 'vs', 'python': ['pycharm', 'sublime'], 'java': {'jse': 'netbeans', 'jee': 'eclipse'}}
+progg['java']['jse']
+      
+'netbeans'
