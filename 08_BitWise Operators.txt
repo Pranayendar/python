@@ -1,0 +1,42 @@
+#BitWise  Operators
+##Complement(~) called as tilde
+## And(&)
+##OR(|)
+##XOR(^)
+##Left Shift(<<)
+##right Shift(>>)
+
+~12
+-13
+~-12
+11
+~-13
+12
+
+#AND(&)
+12&13
+12
+#it complement the binary code of the numbers
+#it adds up the binary code of 12 and 13 then we get a code or 12
+#so it returns 12
+
+#OR(|)
+12|13
+13
+
+#XOR(^)
+12^13
+1
+25^30
+7
+
+#Left Shift(<<)
+0b1010
+10
+10<<
+SyntaxError: invalid syntax
+10<<2
+40
+10>>2
+2
+##Left and Right Shifts used to move the no.of bits in the binary code of the numbers we have mentioned
