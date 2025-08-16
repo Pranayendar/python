@@ -1,0 +1,94 @@
+#OPERATORS
+
+##arthmatic operators
+#assignment operators
+#relational operators
+#logical operators
+#unary operators
+
+#arthematic operators
+a=22
+b=11
+a+b
+33
+a-b
+11
+a*b
+242
+a/b
+2.0
+a//b
+2
+a**b
+584318301411328
+a%b
+0
+
+
+#assignment operators
+a=2
+a+=3
+a
+5
+a-=2
+a
+3
+a*=2
+a
+6
+a/=2
+a
+3.0
+a,b = 2,3
+a,b
+(2, 3)
+
+
+#unary operators
+#negating the existing value using - symbol
+
+a
+2
+a = -a
+a
+-2
+
+
+#Relational operators
+a<b
+True
+a>b
+False
+a==b
+False
+a<=b
+True
+a>=b
+False
+a!=b
+True
+
+
+#Logical operators
+## AND, OR, NOT
+
+a=2
+b=3
+a>b
+False
+a>b and b>a
+False
+a<b and b>a
+True
+
+a>b or b<a
+False
+a>b or b>a
+True
+a = not b
+a
+False
+a = True
+b = not a
+b
+False
