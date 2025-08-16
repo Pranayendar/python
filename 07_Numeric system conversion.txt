@@ -1,0 +1,27 @@
+##Number System Conversion
+
+ 
+#decimal to binary
+bin(25)
+'0b11001'
+bin(0o31)
+'0b11001'
+bin(0xa)
+'0b1010'
+
+#decimal to octal
+oct(25)
+'0o31'
+
+hex(25)
+'0x19'
+hex(10)
+'0xa'
+
+#binary to decimal
+0b11001
+25
+0o31
+25
+0xa
+10
