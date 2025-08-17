@@ -1,0 +1,26 @@
+import math
+
+x=math.sqrt(25)
+x
+5.0
+x=math.floor(22.8)
+x
+22
+print(math.ceil(57.1))
+58
+print(math.pow(2,3))
+8.0
+print(math.pi)
+3.141592653589793
+print(math.e)
+2.718281828459045
+
+#Using math as alise
+import math as m
+print(m.sqrt(25))
+5.0
+
+#rather than inporting complete math library we can import only essential functions from math
+
+from math import sqrt, pow, ceil
+# then this will import only the mentioned functions from the math
